@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+header,
+main,
+footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* nav */
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 links */
+  gap: 10px;
+  justify-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h2, h3, h4 {
+  margin-bottom: 8px;
+}
+
+h2 { font-size: 26px; font-weight: 700; }
+h3 { font-size: 22px; font-weight: 600; }
+h4 { font-size: 18px; font-weight: 500; }
+
+/* GRID 1*/
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* GRID 2 */
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.grid2 .item {
+  background: white;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.grid2 .item img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px auto;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-bottom: 32px;
+}
