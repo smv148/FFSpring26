@@ -113,3 +113,28 @@ footer {
   text-align: center;
   padding-bottom: 32px;
 }
+
+@media only screen and (max-width:400px) {
+
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
+
+  /* Navigation becomes vertical */
+  nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  /* Grid 1 stacks */
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Grid 2 stacks */
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+}
