@@ -122,17 +122,17 @@ footer {
     width: 100%;
   }
 
-  /* Navigation becomes vertical */
+  /* nav becomes vertical */
   nav ul {
     grid-template-columns: 1fr;
   }
 
-  /* Grid 1 stacks */
+  /* grid 1 stacks */
   .grid1 {
     grid-template-columns: 1fr;
   }
 
-  /* Grid 2 stacks */
+  /* grid 2 stacks */
   .grid2 {
     grid-template-columns: 1fr;
   }
