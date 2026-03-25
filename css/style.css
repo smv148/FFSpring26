@@ -108,12 +108,53 @@ figcaption {
   font-size: 14px;
 }
 
+/* Javascript / interactive styles */
+.fun-theme {
+  background-color: #fff8dc;
+  color: #5a3d00;
+}
+
+.fun-theme header {
+  background-color: #ffd6e7;
+  border-radius: 12px;
+}
+
+.highlight-card {
+  background-color: #f0f8ff;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.big-ending {
+  font-size: 24px;
+  color: purple;
+}
+
+.controls {
+  margin-top: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  color: white;
+}
+
 /* Footer */
 footer {
   text-align: center;
   padding-bottom: 32px;
 }
 
+/* Mobile layout */
 @media only screen and (max-width:400px) {
 
   header,

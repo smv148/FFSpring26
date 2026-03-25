@@ -23,6 +23,10 @@
                 <li><a href="#learn">What We Learned</a></li>
                 </ul>
              </nav>
+             <div class="controls">
+                <button id="themeButton">Toggle Fun Theme</button>
+                <button id="storyButton">Change Story Title</button>
+            </div>
         </header>
 
         <main>
@@ -41,25 +45,24 @@
                 <p>Finally, after a long <em>rally</em>, the ball bounced off a rock and plopped into Saffy's tidepool.</p>
                 <p>She giggled. "I think that means the game is over!" Milo flopped onto the grass. “Best match ever.” Percy nodded, fanning his feathers. “We make a perfect team.”</p>
                 <p> And from that day on, the monkey, the seahorse, and the peacock met every morning—proving that tennis is even more fun when everyone plays in their own special way.</p>
-                <p><mark>🌈 The End 🌈</mark></p>
+                <p id="endingText"><mark>🌈 The End 🌈</mark></p>
             </section>
             <section id="characters">
                 <h3>Meet the Characters</h3>
                 <!--This is the 2nd sub-heading on the website-->
                 <section class="grid2">
-                    <figure class="item">
+                    <figure class="item" id="miloCard">
                         <img src="images/milo.jpg" alt="Milo the Monkey">
                         <figcaption>Milo the Monkey — fast and fearless.</figcaption>
                     </figure>
-
-                    <figure class="item">
+                    
+                    <figure class="item" id="saffyCard">
                         <img src="images/saffy.jpg" alt="Saffy the Seahorse">
                         <figcaption>Saffy the Seahorse — gentle and magical.</figcaption>
                     </figure>
-
-                    <figure class="item">
-                        <img src="images/percy.jpg" alt="Percy the Peacock">
-                        <figcaption>Percy the Peacock — dazzling and precise.</figcaption>
+                    <figure class="item" id="percyCard">
+                         <img src="images/percy.jpg" alt="Percy the Peacock">
+                         <figcaption>Percy the Peacock — dazzling and precise.</figcaption>
                     </figure>
                 </section>
             </section>
@@ -103,6 +106,7 @@
         <footer>
             <p>Created by Sofia Victoria. A simple kids' story web page for a class assignment.</p>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 
 
