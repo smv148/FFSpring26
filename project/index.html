@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Moonlight Bakery</title>
+        <meta name="author" content="Sofia Victoria">
+        <meta name="description" content="A creative bakery website featuring dreamy desserts and sweet treats.">
+        <meta name="keywords" content="bakery, desserts, cookies, cake, pastries">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="mainTitle">Moonlight Bakery</h1>
+            <p class="intro">Freshly baked sweets with a little midnight magic.</p>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#favorites">Favorites</a></li>
+                </ul>
+            </nav>
+
+            <div class="controls">
+                <button id="themeButton">Change Theme</button>
+                <button id="titleButton">Change Title</button>
+                <button id="messageButton">Show Special</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About Moonlight Bakery</h2>
+                <p>
+                    Moonlight Bakery is a dreamy little bakery filled with warm pastries, colorful desserts and sweet creations made to brighten every day.
+                </p>
+                <p id="specialMessage">Our special today is hidden. Click the button above to reveal it.</p>
+            </section>
+
+            <section id="menu" class="grid1">
+                <div class="card" id="cakeCard">
+                    <h3>Velvet Cake</h3>
+                    <p>A rich, fluffy cake with creamy frosting and a touch of berry sweetness.</p>
+                </div>
+
+                <div class="card" id="cookieCard">
+                    <h3>Star Cookies</h3>
+                    <p>Soft golden cookies with sparkling sugar and a buttery finish.</p>
+                </div>
+
+                <div class="card" id="croissantCard">
+                    <h3>Moon Croissant</h3>
+                    <p>A flaky, golden croissant baked fresh every morning.</p>
+                </div>
+            </section>
+
+            <section id="gallery" class="grid2">
+                <figure class="photo-box">
+                    <img src="images/cake.jpg" alt="Decorated velvet cake">
+                    <figcaption>Signature velvet cake</figcaption>
+                </figure>
+
+                <figure class="photo-box">
+                    <img src="images/cookies.jpg" alt="Fresh baked cookies">
+                    <figcaption>Star cookies</figcaption>
+                </figure>
+
+                <figure class="photo-box">
+                    <img src="images/croissant.jpg" alt="Flaky croissant">
+                    <figcaption>Moon croissant</figcaption>
+                </figure>
+
+                <figure class="photo-box">
+                    <img src="images/donut.jpg" alt="Glazed donut">
+                    <figcaption>Glazed dream donut</figcaption>
+                </figure>
+
+                <figure class="photo-box">
+                    <img src="images/macarons.jpg" alt="Colorful macarons">
+                    <figcaption>Pastel macarons</figcaption>
+                </figure>
+            </section>
+
+            <section id="favorites">
+                <h2>Customer Favorites</h2>
+                <ul>
+                    <li>Velvet Cake</li>
+                    <li>Star Cookies</li>
+                    <li>Pastel Macarons</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Created by Sofia Victoria for Front-End Fundamentals.</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
